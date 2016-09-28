@@ -12,7 +12,7 @@
             display: block;
             clear: both;
         }
-        /* Header */
+
         .cubrir a {
             color: #ffffff;
             padding: 0 4px;
@@ -50,8 +50,13 @@
             font-size: 14px;
             float: right;
         }
-        /* Header */
-        /* Heading 2 */
+    
+        main img {
+            width: 777px;
+            height: 100px;
+            margin: 0;
+                }
+
         main {
             overflow: auto;
             max-width: 800px;
@@ -68,12 +73,19 @@
             padding-left: 0;
             font-size: 12px;
         }
+  
+        #lomejor {
+            font-size: 20px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
         nav ul {
             margin: 0;
             padding-right: 20px;
             text-align: right;
         }
-        /*footer */
+
     footer {
         height: 70px;
         background-color: #d3d3d3;
@@ -89,41 +101,38 @@
         color: #939393;
     } 
     /* footer */
+    
     .main-left,
     .main-right {
         float: left;
     }
 
     .main-left {
-        width: 99%;
+        width: 60%;
     }
 
     .main-right {
-        width: 1%;
-    }
-    label #firstname {
-        color: orange;
+        width: 40%;
     }
 
     </style>
 </head>
 <body>
-    <form method="POST" action="">
     <header>
     <img src="file:///Users/mauri213/Desktop/Projects/spicesource/spice-source-master/assets/images/spices.svg">
         <nav class="cubrir">
             <ul>
                 <li>
-                    <a href="spicesource1.html">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="spicesource2.html">Shop</a>
+                    <a href="shop.html">Shop</a>
                 </li>
                 <li>
-                    <a href="spicesource3.html">About</a>
+                    <a href="about.html">About</a>
                 </li>
                 <li>
-                    <a href="spicesource4.html">Contact</a>
+                    <a href="contact.html">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -131,34 +140,18 @@
     <main>
         <div class="main-left">
             <article id="section2" class="box">
-            <h2>Spice Source</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </article>
-            <form>
-            <label for="firstname">First Name</label>
-            <input id="firstname" type="text" name="firstname">
-            <label for="lastname">Last Name</label>
-            <input id="lastname" type="text" name="lastname">
-            </form>
-            <form>
-            <label for="email">Email</label>
-            <input id="email" type="text" name="email">
-            </form>
-            <form>
-            <label for="mess">Send us a message:</label>
-            <textarea name="mess" id="mess"></textarea>
-            </form>
-            <form>
-            <label for="con">Contact me about special offers.</label>
-            <input id="con" type="checkbox" name="con">
-            </form>
-            <input type="submit" name="Submit">
-    </main>
+            <h3>Spice Source</h3>
+            <div class="tresamigos">
+                <div id="com" class="com">
+                    <h3>Heading 3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+      
     <footer>&copy; Spice Source 2014 - 2016 <a href="">Terms</a><a href="">Privacy</a></footer>
 </body>
 </html>
